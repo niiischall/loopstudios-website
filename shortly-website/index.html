@@ -18,6 +18,42 @@
     <link rel="stylesheet" href="./styles/output.css" />
   </head>
   <body>
-    <h5 class="text-5xl">Shortly</h5>
+    <!-- navbar -->
+    <nav class="relative container mx-auto p-6">
+      <!-- Container -->
+      <div class="flex justify-between items-center">
+        <!-- Left Container -->
+        <div class="flex items-center space-x-20">
+          <!-- Logo -->
+          <img src="images/logo.svg" alt="logo" />
+          <!-- Menu -->
+          <div class="hidden lg:flex items-center space-x-6 font-bold">
+            <a href="#" class="text-grayishViolet hover:text-veryDarkViolet"
+              >Features</a
+            >
+            <a href="#" class="text-grayishViolet hover:text-veryDarkViolet"
+              >Pricing</a
+            >
+            <a href="#" class="text-grayishViolet hover:text-veryDarkViolet"
+              >Resources</a
+            >
+          </div>
+        </div>
+        <!-- Right Container -->
+        <div
+          class="hidden lg:flex items-center font-bold text-grayishViolet hover:text-veryDarkViolet space-x-6"
+        >
+          <!-- Menu -->
+          <div class="hover:text-veryDarkViolet">Login</div>
+          <a
+            href="#"
+            class="px-8 py-3 font-bold text-white bg-cyan rounded-full hover:opacity-70"
+            >Signup</a
+          >
+        </div>
+        <!-- Hamburger -->
+      </div>
+      <!-- Mobile Menu -->
+    </nav>
   </body>
 </html>
